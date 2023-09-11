@@ -1,0 +1,41 @@
+.container{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.top1{
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(226, 226, 226);
+    font-weight: 500;
+    width: 80%;
+}
+
+.top2{
+    width: 70%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    padding: 1rem;
+    background-color: rgb(226, 226, 226);
+    margin-bottom: 2rem;
+}
+
+.top2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rebeccapurple;
+    
+}
+
+.top2 span{ 
+    font-weight: 500;
+}

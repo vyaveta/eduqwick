@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    padding: 0 3rem;
+    border-radius: 50px;
+    background-color: rgb(226, 226, 226);
+    width: 60%;
+    height: fit-content;
+}
+
+.container img{
+    border-radius: 50%;
+}
+
+.intro_text_div{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+.intro_text_div h1{
+    font-size: 1.8rem;
+}
+
+.button_div{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.button_div button{
+    padding: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    max-width: 400px;
+}
+
+.button_div button:hover{
+    background: rebeccapurple;
+}

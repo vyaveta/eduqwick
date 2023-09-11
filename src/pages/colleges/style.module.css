@@ -1,0 +1,46 @@
+.left{
+    background: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:center ;
+    width: 250px;
+    padding: 10px;
+}
+
+.left p {
+    margin: 0;
+    color: black;
+    font-weight: 500;
+}
+
+.college_wrap{
+    display: flex;
+    /* width; */
+    align-items: center;
+    justify-content: center;
+}
+
+.college{
+    display: flex;
+    background: rgb(255, 255, 255);
+    width: 80%;
+    gap: 2rem;
+}
+
+.right{
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.right_box{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
